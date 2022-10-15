@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "title": "Sucari Tech - Software Development Company",
-    "description": "Sucari Tech is a full-service software development company. Customized software solutions in Peru",
+    "title": "Sucari Tech - Empresa de Desarrollo de Software",
+    "description": "Sucari Tech es una empresa de desarrollo de software de servicio completo. Soluciones de software a la medida en Perú",
     "keywords": [
-      "Software Development Company",
-      "Software development"
+      "Empresa de Desarrollo de Software",
+      "Desarrollo de Software"
     ]
   },
   "contacts": [
@@ -12,21 +12,21 @@
     "+51 928 518 774"
   ],
   "months": [
-    "Jan.",
-    "Feb.",
-    "Mar.",
-    "Apr.",
-    "May.",
-    "June.",
-    "July.",
-    "Aug.",
+    "En.",
+    "Febr.",
+    "Mzo.",
+    "Abr.",
+    "My.",
+    "Jun.",
+    "Jul.",
+    "Ag.",
     "Sept.",
     "Oct.",
     "Nov.",
-    "Dec."
+    "Dic."
   ],
   "api": {
-    "errorMessage": "An error has occurred. Please try again later"
+    "errorMessage": "Ha ocurrido un error. Por favor, inténtelo de nuevo más tarde"
   },
   "footer": {
     "textLine": [
@@ -34,182 +34,185 @@
         "label": "© 2022 Sucari Tech | "
       },
       {
-        "label": "Privacy Policy",
+        "label": "Política de Privacidad",
         "to": "/privacy-policy"
       }
     ]
   },
   "sections": {
     "home": {
-      "name": "Home",
+      "name": "Inicio",
       "title": [
         {
-          "label": "Work better with ",
+          "label": "Trabaja mejor con ",
           "decorate": false
         },
         {
-          "label": "Sucari Technologies",
+          "label": "Tecnologías Sucari",
           "decorate": true
         }
       ],
       "skippable": false,
-      "paragraph": "Check out the potential of digital transformation, go to the next level with Sucari Tech",
+      "paragraph": "Vea el potencial de la transformación digital, pase al siguiente nivel con Sucari Tech",
       "links": [
         {
-          "label": "Contact us",
+          "label": "Contáctanos",
           "to": "getInTouch"
         },
         {
-          "label": "Discover",
+          "label": "Descubre",
           "to": "about"
         }
       ],
       "image": "../images/home/illustration.png"
     },
     "about": {
-      "name": "About",
-      "title": "We help implement and manage your digital products",
+      "name": "Sobre",
+      "title": "Ayudamos a implementar y gestionar tus productos digitales",
       "skippable": false,
       "founder": {
         "fullNames": "Derry Sucari",
-        "rol": "Founder & CTO",
-        "message": "I built Sucari Tech to solve the digital challenges we all face. Sucari Tech is designed to change that. Our mission is to facilitate process management by providing technological solutions aimed at excellence and process optimization"
+        "rol": "Fundador & CTO",
+        "message": "Construí Sucari Tech para resolver los desafíos digitales que todos enfrentamos. Sucari Tech está diseñado para cambiar eso. Nuestra misión es facilitar la gestión de procesos aportando soluciones tecnológicas orientadas a la excelencia y optimización de procesos"
       }
     },
     "services": {
-      "name": "Services",
-      "title": "Services — We offer full-cycle software development services that perfectly meet your needs",
+      "name": "Servicios",
+      "title": "Servicios — Ofrecemos servicios de desarrollo de software de ciclo completo que se adaptan perfectamente a sus necesidades",
       "skippable": false,
       "services": [
         {
-          "name": "Software Consulting",
+          "name": "Consultoría de Software",
           "image": "../images/services/software-consulting.png"
         },
         {
-          "name": "Web Development",
+          "name": "Desarrollo Web",
           "image": "../images/services/web-development.png"
         },
         {
-          "name": "Mobile Development",
+          "name": "Desarrollo Móvil",
           "image": "../images/services/mobile-development.png"
         },
         {
-          "name": "Desktop Development",
+          "name": "Desarrollo de Escritorio",
           "image": "../images/services/desktop-development.png"
         },
         {
-          "name": "UX/UI Design",
+          "name": "Diseño de UX/UI",
           "image": "../images/services/uiux-design.png"
         },
         {
-          "name": "QA & Testing",
+          "name": "QA & Pruebas",
           "image": "../images/services/qa-testing.png"
         }
       ]
     },
     "cycle": {
-      "name": "Cycle",
-      "title": "Software Development Life Cycle — Our software development processes are composed of the best practices and development methodologies",
+      "name": "Ciclo",
+      "title": "Ciclo de Vida del desarrollo de software — Nuestros procesos de desarrollo de software están compuestos por las mejores prácticas y metodologías de desarrollo",
       "skippable": false,
       "phases": [
         {
-          "name": "Analysis",
+          "name": "Análisis",
           "image": "../images/cycle/analysis.png"
         },
         {
-          "name": "Design",
+          "name": "Diseño",
           "image": "../images/cycle/design.png"
         },
         {
-          "name": "Implementation",
+          "name": "Implementación",
           "image": "../images/cycle/implementation.png"
         },
         {
-          "name": "Testing",
+          "name": "Pruebas",
           "image": "../images/cycle/testing.png"
         },
         {
-          "name": "Deployment",
+          "name": "Despliegue",
           "image": "../images/cycle/deployment.png"
         },
         {
-          "name": "Maintenance",
+          "name": "Mantenimiento",
           "image": "../images/cycle/maintenance.png"
         }
       ],
       "aside": {
-        "label": "available for work",
-        "message": "Are you thinking of a plan?",
+        "label": "disponible para trabajar",
+        "message": "¿Estás pensando en un plan?",
         "link": {
-          "label": "Talk to us",
+          "label": "Háblanos",
           "to": "getInTouch"
         }
       }
     },
     "getInTouch": {
-      "name": "Get in touch",
-      "title": "Get your project estimations for well-informed business decisions",
+      "name": "Contacto",
+      "title": "Obtenga las estimaciones de su proyecto para tomar decisiones comerciales bien informadas",
       "skippable": false,
       "form": {
         "fields": {
           "firstName": {
-            "label": "First Name",
-            "placeholder": "First Name"
+            "label": "Nombre",
+            "placeholder": "Nombre"
           },
           "lastName": {
-            "label": "Last Name",
-            "placeholder": "Last Name"
+            "label": "Apellido",
+            "placeholder": "Apellido"
           },
           "email": {
-            "label": "Email",
-            "placeholder": "Email"
+            "label": "Correo Electrónico",
+            "placeholder": "Correo Electrónico"
           },
           "phone": {
-            "label": "Phone",
-            "placeholder": "Phone"
+            "label": "Teléfono",
+            "placeholder": "Teléfono"
           },
           "company": {
-            "label": "Company",
-            "placeholder": "Company"
+            "label": "Compañía",
+            "placeholder": "Compañía"
           },
           "message": {
-            "label": "Message",
-            "placeholder": "How we can help you?"
+            "label": "Mensaje",
+            "placeholder": "¿Cómo te podemos ayudar?"
           }
         },
-        "buttonText": "Send"
+        "buttonText": "Enviar"
       },
       "notice": [
         {
-          "label": "By sending this form, you agree to Sucari Tech "
+          "label": "Al enviar este formulario, acepta la "
         },
         {
-          "label": "Privacy Policy",
+          "label": "Política de Privacidad",
           "to": "/privacy-policy"
+        },
+        {
+          "label": " de Sucari Tech"
         }
       ],
       "information": {
-        "title": "What Happens Next?",
+        "title": "¿Qué pasa después?",
         "steps": [
-          "— We analyze your business requirements",
-          "— We contact you in a few days",
-          "— We present project estimates and approximate timeline"
+          "— Analizamos los requerimientos de tu negocio",
+          "— Te contactamos en unos días",
+          "— Presentamos estimaciones del proyecto y cronograma aproximado"
         ]
       }
     },
     "subscribe": {
-      "name": "Subscribe",
-      "title": "Subscribe",
+      "name": "Suscribir",
+      "title": "Suscribir",
       "skippable": true,
-      "description": "Subscribe to our newsletter to receive emails about new releases and updates",
+      "description": "Suscríbase a nuestro boletín para recibir correos electrónicos sobre nuevos lanzamientos y actualizaciones",
       "form": {
         "fields": {
           "email": {
-            "label": "Email",
-            "placeholder": "Enter your email address"
+            "label": "Correo Electrónico",
+            "placeholder": "Ingrese su dirección de correo electrónico"
           }
         },
-        "buttonText": "Subscribe"
+        "buttonText": "Suscribir"
       }
     }
   }

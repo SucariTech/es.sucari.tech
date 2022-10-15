@@ -55,7 +55,7 @@ const PageNotFound = () => {
         lang: config.language,
         translate: 'no'
       }}>
-        <title>Sucari Tech - Page Not Found</title>
+        <title>Sucari Tech - Página No Encontrada</title>
 
         { /* Fonts */
           config.fonts.map((src, index) => (
@@ -70,13 +70,13 @@ const PageNotFound = () => {
         }
       </Helmet>
       <Container>
-        <Title>Page Not Found</Title>
-        <Subtitle>Sorry, we couldn't find what you were looking for</Subtitle>
+        <Title>Página No Encontrada</Title>
+        <Subtitle>Lo sentimos, no pudimos encontrar lo que estabas buscando</Subtitle>
         <Wrapper>
-          <p><strong>Need help finding something?</strong></p>
-          <p>Email info@sucari.tech and we’ll help you.</p>
+          <p><strong>¿Necesitas ayuda para encontrar algo?</strong></p>
+          <p>Envía un correo electrónico a info@sucari.tech y te ayudaremos.</p>
         </Wrapper>
-        <Link to="/">— Back to home</Link>
+        <Link to="/">— Volver al Inicio</Link>
       </Container>
     </>
   );
