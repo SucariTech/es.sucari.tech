@@ -6,9 +6,6 @@ import { Link } from 'gatsby';
 /* Styled Components */
 import styled, { css } from 'styled-components';
 
-/* Helmet */
-import { Helmet } from 'react-helmet';
-
 /* Config */
 import config from '@config';
 
@@ -48,37 +45,37 @@ const Subtitle = styled.h2`
   font-style: italic;
 `;
 
-const PageNotFound = () => {
+export const Head = () => {
   return (
     <>
-      <Helmet htmlAttributes={{
-        lang: config.language,
-        translate: 'no'
-      }}>
-        <title>Sucari Tech - Página No Encontrada</title>
+      <title>Sucari Tech - Página No Encontrada</title>
 
-        { /* Fonts */
-          config.fonts.map((src, index) => (
-            <link
-              key={ index }
-              href={ src }
-              rel="preload"
-              as="font"
-              crossOrigin=""
-            />
-          ))
-        }
-      </Helmet>
-      <Container>
-        <Title>Página No Encontrada</Title>
-        <Subtitle>Lo sentimos, no pudimos encontrar lo que estabas buscando</Subtitle>
-        <Wrapper>
-          <p><strong>¿Necesitas ayuda para encontrar algo?</strong></p>
-          <p>Envía un correo electrónico a info@sucari.tech y te ayudaremos.</p>
-        </Wrapper>
-        <Link to="/">— Volver al Inicio</Link>
-      </Container>
+      { /* Fonts */
+        config.fonts.map((src, index) => (
+          <link
+            key={ index }
+            href={ src }
+            rel="preload"
+            as="font"
+            crossOrigin=""
+          />
+        ))
+      }
     </>
+  );
+}
+
+const PageNotFound = () => {
+  return (
+    <Container>
+      <Title>Página No Encontrada</Title>
+      <Subtitle>Lo sentimos, no pudimos encontrar lo que estabas buscando</Subtitle>
+      <Wrapper>
+        <p><strong>¿Necesitas ayuda para encontrar algo?</strong></p>
+        <p>Envía un correo electrónico a info@sucari.tech y te ayudaremos.</p>
+      </Wrapper>
+      <Link to="/">— Volver al Inicio</Link>
+    </Container>
   );
 }
 
