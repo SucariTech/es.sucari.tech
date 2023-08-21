@@ -3,7 +3,7 @@ import { createTheme as createMUITheme } from '@mui/material/styles'
 import type { PaletteOptions } from '@mui/material/styles'
 
 /* MUI Locale */
-import { enUS } from '@mui/material/locale'
+import { esES } from '@mui/material/locale'
 
 /* Shared */
 import typography, { fontFaceDeclarations } from '@theme/shared/typography'
@@ -72,5 +72,5 @@ export const createTheme = (
         fontFamily: typography.primary.fontFamily,
       },
     },
-    enUS,
+    esES,
   )
