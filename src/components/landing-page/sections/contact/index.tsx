@@ -106,6 +106,17 @@ export const submitContactFormData = async ({
   }
 }
 
+export const submitConversion = (): void => {
+  if (
+    process.env.GATSBY_GOOGLE_ADS_CONVERSION_ID &&
+    process.env.GATSBY_GOOGLE_ADS_CONVERSION_LABEL
+  ) {
+    window.gtag('event', 'conversion', {
+      send_to: `${process.env.GATSBY_GOOGLE_ADS_CONVERSION_ID}/${process.env.GATSBY_GOOGLE_ADS_CONVERSION_LABEL}`,
+    })
+  }
+}
+
 const ContactSection: React.FC<
   Queries.ContentfulContactComponentContentFragment
 > = ({
@@ -181,6 +192,7 @@ const ContactSection: React.FC<
       if (result?.successMessage) {
         severity = 'success'
         message = result.successMessage
+        submitConversion()
         resetSchema()
       }
 

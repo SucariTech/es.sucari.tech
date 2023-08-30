@@ -3863,6 +3863,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/gtag.js@npm:^0.0.13":
+  version: 0.0.13
+  resolution: "@types/gtag.js@npm:0.0.13"
+  checksum: 9c56c961579cc7c0b5bb4d8b01ba59baffe91a47893ed9d0be8161c6d74e04cebdcee4bc5762704ba72be0c40cb9d5fc88844df52b990545d6982cf9f8a6d6a7
+  languageName: node
+  linkType: hard
+
 "@types/http-cache-semantics@npm:*, @types/http-cache-semantics@npm:^4.0.1":
   version: 4.0.1
   resolution: "@types/http-cache-semantics@npm:4.0.1"
@@ -14435,6 +14442,7 @@ __metadata:
     "@hotform/types": ^1.5.1
     "@mui/icons-material": ^5.14.3
     "@mui/material": ^5.14.5
+    "@types/gtag.js": ^0.0.13
     "@types/node": ^20.5.0
     "@types/react": ^18.2.20
     "@types/react-dom": ^18.2.7
