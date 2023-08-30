@@ -39,7 +39,10 @@ const config: GatsbyConfig = {
     {
       resolve: 'gatsby-plugin-google-gtag',
       options: {
-        trackingIds: [process.env.GOOGLE_ANALYTICS_ID].filter(Boolean),
+        trackingIds: [
+          process.env.GATSBY_GOOGLE_ADS_CONVERSION_ID,
+          process.env.GOOGLE_ANALYTICS_ID,
+        ].filter(Boolean),
       },
     },
     'gatsby-plugin-image',
