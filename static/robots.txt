@@ -1,3 +1,0 @@
-User-agent: *
-Sitemap: https://es.sucari.tech/sitemap-index.xml
-Host: https://es.sucari.tech
