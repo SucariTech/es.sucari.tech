@@ -1,4 +1,3 @@
 .cache
 .yarn
-public
-src/generated/gatsby-types.d.ts
+src/generated/*
